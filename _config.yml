@@ -4,8 +4,8 @@
 
 # Site
 title: 東雲絵名
-avatar: /source/_res/avatar.png
-favicon: /source/_res/avatar.png
+avatar: https://raw.githubusercontent.com/kgmnrin/kgmnrin.github.io/refs/heads/dev/source/_res/avatar.png
+favicon: https://raw.githubusercontent.com/kgmnrin/kgmnrin.github.io/refs/heads/dev/source/_res/avatar.png
 subtitle: ''
 description: ''
 keywords:

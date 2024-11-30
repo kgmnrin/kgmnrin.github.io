@@ -1,0 +1,13 @@
+name: Miku Coder
+title: Miku Coder - A VSCode extension.
+icon: //resource/miku-coder/icon.png
+cover: //resource/miku-coder/icon.png
+search:
+  filter: /wiki/miku-coder/
+  placeholder: 在 Miku Coder 中搜索...
+leftbar:
+- tree
+base_dir: /wiki/miku-coder/
+tree:
+- index
+- todo

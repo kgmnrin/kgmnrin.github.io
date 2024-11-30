@@ -29,36 +29,36 @@ logo:
 menubar:
   columns: 4 # 一行多少个
   items:
-    # 可按照自己需求增加，符合以下格式即可
-    # id: 页面中高亮的 menu_id 
-    # theme: 高亮时的颜色，仅 svg 中 fill="currentColor" 时有效
-    # icon: 支持 svg/img 标签，可以定义在 icons.yml 文件中，也支持外部图片的 URL
-    # title: 标题
-    # url: 点击跳转到哪，支持相对路径和绝对路径
-    # - id: post
-    #   theme: '#1BCDFC'
-    #   icon: solar:documents-bold-duotone
-    #   title: 博客
-    #   url: /
-    # - id: wiki
-    #   theme: '#3DC550'
-    #   icon: solar:notebook-bookmark-bold-duotone
-    #   title: 文档
-    #   url: /wiki/
-    # - id: explore
-    #   theme: '#FA6400'
-    #   icon: solar:planet-bold-duotone
-    #   title: 探索
-    #   url: /explore/
-    # - id: social
-    #   theme: '#F44336'
-    #   icon: solar:chat-square-like-bold-duotone
-    #   title: 社交
-    #   url: /friends/
+  # 可按照自己需求增加，符合以下格式即可
+  # id: 页面中高亮的 menu_id 
+  # theme: 高亮时的颜色，仅 svg 中 fill="currentColor" 时有效
+  # icon: 支持 svg/img 标签，可以定义在 icons.yml 文件中，也支持外部图片的 URL
+  # title: 标题
+  # url: 点击跳转到哪，支持相对路径和绝对路径
+  - id: post
+    theme: '#1BCDFC'
+    icon: solar:documents-bold-duotone
+    title: 博客
+    url: /
+  - id: wiki
+    theme: '#3DC550'
+    icon: solar:notebook-bookmark-bold-duotone
+    title: 文档
+    url: /wiki/
+  # - id: explore
+  #   theme: '#FA6400'
+  #   icon: solar:planet-bold-duotone
+  #   title: 探索
+  #   url: /explore/
+  # - id: social
+  #   theme: '#F44336'
+  #   icon: solar:chat-square-like-bold-duotone
+  #   title: 社交
+  #   url: /friends/
 
 
-    ######## Main ########
-    # 站点主结构树
+  ######## Main ########
+  # 站点主结构树
 site_tree:
   # -- 列表类页面 -- #
   # 主页配置
@@ -217,7 +217,7 @@ comments:
   # beaudar
   # https://beaudar.lipk.org/
   beaudar:
-    repo: kgmnrin/kgmnrin.github.io/tree/dev
+    repo: kgmnrin/kgmnrin.github.io.comment
     issue-term: pathname
     issue-number:
     theme: preferred-color-scheme
